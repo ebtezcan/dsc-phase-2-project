@@ -1,4 +1,4 @@
-# King County Renovation: Most Effective Way to Increase the Value of Your Home
+# King County Renovation: Most Effective Ways to Increase the Value of Your Home
 ## Building a Multiple Linear Regression model for the real estate data in King County to maximize sale price of homes based on 3 parameters.
 &nbsp;
 
