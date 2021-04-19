@@ -63,7 +63,7 @@ Even though renovations are usually a lot of effort and stressful to lots of hom
 - Having a basement is the third most effective parameter in increasing a home's sale price. 
 
 
-## Recommendations:
+## Recommendations
 
 Our first recommendation based on our findings above would be for the homeowner to renovate their house and add livable above ground square footage to the property. This could be in the shape of an added extension to the home or a simpler approach of finishing the attic space.
 
