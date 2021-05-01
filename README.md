@@ -33,11 +33,19 @@ After many iterations on our model, we ended up having the results described bel
 > As can be seen above, as the square footage of the house increased, sale price of the home also tended to increase with it. Even though there is a spread of price at each category of square footage and therefore some overlaps between them, there is a clear positive trend between sale price and square footage above ground. Additionally, it should be noted that, as the square footage increases, the minimum sale price of the category is consistently increasing as well indicating that, even if the house may not be optimal per other parameters, having a certain amount of square footage tends to make it more valuable.
 
 &nbsp;
+
+### Average Sale Price Based on Having a Finished Basement
+
+<img src="./images/output_143_0.png">
+
+> Exploring the relationship between having a finished basement and the sale price, we see that homes that had finished basements had a higher average sale price of approximately $520,000 compared to homes that did not at approximately $451,000. 
+
+&nbsp;
 ### The Relationship of Sale Price with Above Ground Square Footage and Having a Basement
 &nbsp;
 <img src="./images/output_132_0.png">
 
-> When we look at the relationship between square footage above ground and the home's sale price again, but add in a second parameter to define whether the house had a basement or not, the houses with a basement have a slightly more positive relationship with the sale price. So if a house had a basement, it tended to have a slightly higher price than a comparable home without a basement. This is visible from the difference of slopes between the two lines shown above where the green line is diverging from the blue line in a positive way.
+> When we look at the relationship between square footage above ground and the home's sale price again, but add in the paremeter that shows whether a house had a finished basement or not, the houses with a finished basement have a slightly more positive relationship with the sale price. So if a house had a basement, it tended to have a slightly higher price than a similar sized (based on above ground sqft) home without a basement. This is visible from the difference of slopes between the two lines shown above where the green line is diverging from the blue line in a positive way.
 
 &nbsp;
 ### Average Sale Price per Grade of Finishes and Construction
@@ -100,3 +108,15 @@ Please review my full analysis in [my Jupyter Notebook](./final_notebook.ipynb) 
 └── data                    <- Externally sourced data
 
 ```
+## Appendix A: Effect of Zipcode on Home Sale Price
+
+One of the parameters that we found that had a significant impact on a home's sale price was the zipcode of the address where the home is located. Below zipcodes are the top 5 that had the most positive effect on a home's sale price. Since the zipcode of a house is not a parameter that can be changed by a renovation, we are only providing this information for reference.
+&nbsp;
+
+| Position by Effect Size       | Zipcode           | Primary City  |
+| ------------- |:-------------:| -----:|
+| 1      | 98039 | Medina |
+| 2      | 98004      |   Bellevue |
+| 3 | 98040      |    Mercer Island |
+| 4 | 98112      |   Seattle |
+| 5 | 98109      |    Seattle |
